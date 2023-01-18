@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+}
+
+table,th,td {
+    border: 1px solid rgb(199, 196, 190);
+    border-collapse: collapse;
+}
+
+
+.cel-1 {
+    background-color: rgb(75, 183, 75);
+    
+}
+
+.cel-2 {
+    text-align: left;
+    background-color: lightskyblue;
+}
+
+.cel-3 {
+    color: red;
+}
+
+.cel-4 {
+    background-color: #ff9de2;
+}

@@ -1,0 +1,25 @@
+table,th,td {
+    border: 3px solid lightskyblue;
+    border-collapse: collapse;
+}
+
+
+th,td {
+    padding: 5px;
+}
+
+th {
+    background-color: rgb(64, 78, 64);
+}
+
+td{
+    background-color: rgb(127, 178, 127);
+}
+
+.number {
+    text-align: center;
+}
+
+.text-num {
+    background-color: rgb(58, 165, 58);
+}
