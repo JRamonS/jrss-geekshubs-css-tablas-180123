@@ -1,0 +1,25 @@
+.imege {
+    background-image: url("../img/leon.jpg");
+    height: 500px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+
+table,th,td {
+    border: 1px solid black;
+    width: 40%;
+    position: relative;
+   
+
+}
+
+th {
+    background-color: white;
+}
+
+td{
+    text-align: center;
+    background-color: yellow;
+}

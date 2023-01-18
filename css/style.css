@@ -1,18 +1,24 @@
+table,th,td{
+    border: 2px solid lightskyblue;
+    border-collapse: collapse;
+}
+
 table {
-    background-color:lightskyblue ;
-    border: solid lightskyblue 5px;
-    border: inset;
+    border: outset;
+}
+
+th,td{
+    padding: 10px;
 }
 
 th {
-    background-color: green;
+    background-color: rgb(44, 114, 44);
 }
 
 td {
-    border: solid black 2px;
-    background-color: lightgreen;
+    background-color: rgb(93, 189, 93);
 }
 
-.col-1{
-    background-color: green;
+.col-1 {
+    background-color: rgb(68, 146, 68);
 }

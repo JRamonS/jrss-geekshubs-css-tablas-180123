@@ -1,25 +1,36 @@
 table,th,td {
-    border: 3px solid lightskyblue;
+    border: 2px solid lightskyblue;
     border-collapse: collapse;
 }
 
+table {
+    border: outset;
+}
 
 th,td {
-    padding: 5px;
+    padding: 10px;
 }
 
 th {
-    background-color: rgb(64, 78, 64);
+    background-color: rgb(27, 70, 27);
 }
 
-td{
-    background-color: rgb(127, 178, 127);
+td {
+    background-color: #a3de83;
 }
 
-.number {
+.col-1 {
+    background-color: #85ba68;
+}
+
+.col-2 {
+    background-color: #689152;
+}
+
+#col-3 {
+    background-color: #689152;
+}
+
+.col-4 {
     text-align: center;
-}
-
-.text-num {
-    background-color: rgb(58, 165, 58);
 }
