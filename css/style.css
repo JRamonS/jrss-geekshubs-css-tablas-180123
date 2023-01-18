@@ -1,0 +1,18 @@
+table {
+    background-color:lightskyblue ;
+    border: solid lightskyblue 5px;
+    border: inset;
+}
+
+th {
+    background-color: green;
+}
+
+td {
+    border: solid black 2px;
+    background-color: lightgreen;
+}
+
+.col-1{
+    background-color: green;
+}
