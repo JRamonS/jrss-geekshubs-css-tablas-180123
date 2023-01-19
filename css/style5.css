@@ -1,0 +1,14 @@
+#container {
+    
+}
+
+.text {
+    list-style-type:decimal;
+}
+li {
+    list-style-type: lower-alpha;
+}
+
+.text2 {
+    list-style-type: decimal;
+}

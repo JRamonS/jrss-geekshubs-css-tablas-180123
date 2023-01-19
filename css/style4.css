@@ -1,25 +1,44 @@
-.imege {
+body {
     background-image: url("../img/leon.jpg");
-    height: 500px;
-    width: 50%;
+    margin: 0;
     background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
+    background-size: 100vh;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#imagen {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+#tabla {
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    height: 10vh;
+    margin-top: 40vh;
+}
+
+table {
+    width: 70%;
 }
 
 table,th,td {
-    border: 1px solid black;
-    width: 40%;
-    position: relative;
-   
-
+    border: 3px solid rgb(211, 201, 201);
+    border-collapse: collapse;
 }
 
 th {
-    background-color: white;
+    background-color: aliceblue;
 }
 
-td{
+td {
     text-align: center;
     background-color: yellow;
 }

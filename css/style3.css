@@ -23,5 +23,6 @@ table,th,td {
 }
 
 .cel-4 {
+    text-align: right;
     background-color: #ff9de2;
 }
